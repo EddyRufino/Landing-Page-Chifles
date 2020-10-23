@@ -110,6 +110,7 @@ header.sticky ul li a {
 
 .content .textBox h2 span {
 	font-size: 2em;
+	color: #68E1FD;
 }
 
 .content .textBox p {
@@ -232,7 +233,7 @@ ul #marker {
 	left: 0;
 	height: 4px;
 	width: 0;
-	background: #e2e8f0;
+	background: #68E1FD;
 	bottom: -8px;
 	transition: 0.5s;
 	border-radius: 4px;
@@ -257,18 +258,19 @@ ul #marker {
 
 .photo-container {
 	/*width: 50%;*/
-	padding-right: 1em;
+	/*padding-right: 1em;*/
 }
 
 .description-container {
-	padding-left: 1em;
+	/*padding-left: 1em;*/
 	width: 50%;
 }
 
 .title-about {
 	font-size: 36px;
 	font-weight: 500;
-	color: #fff;
+	color: #68E1FD;
+	line-height: 1em;
 }
 
 .parrafo-about {
@@ -296,6 +298,12 @@ ul #marker {
 }
 
 /** Fin nosotros **/
+
+/** Eligenos **/
+.photo-eligenos {
+	width: 400px;
+	height: 400px;
+}
 
 /*** Productos ***/
 
@@ -325,7 +333,7 @@ ul #marker {
 .content-info-servicios h2 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #fff;
+	color: #68E1FD;
 }
 
 .content-info-servicios p {
@@ -479,7 +487,7 @@ ul #marker {
 .contact .content-form h2 {
 	font-size: 36px;
 	font-weight: 500;
-	color: #fff;
+	color: #68E1FD;
 }
 
 .contact .content-form p {
@@ -605,12 +613,13 @@ ul #marker {
 .maps-title {
 	font-size: 36px;
     font-weight: 500;
-    color: #fff;
+    color: #68E1FD;
 }
 .maps-parrafo {
 	font-weight: 300;
     color: #fff;
     padding-bottom: 2em;
+    text-align: center;
 }
 /** Fin Maps **/
 
@@ -637,6 +646,14 @@ ul #marker {
 	header.sticky ul li a {
 		color: #1a202c;
 		transition: .5s;
+	}
+	.photo-container {
+		padding-right: 1em;
+	}
+
+	.description-container {
+		padding-left: 1em;
+		width: 50%;
 	}
 }
 
@@ -846,13 +863,18 @@ ul #marker {
 	    display: flex;
 	    flex-direction: column;
 	}
+	/** Eligenos **/
+	.photo-eligenos {
+	    width: 300px;
+	    height: 300px;
+	}
 }
 
 @media (min-width: 2560px) {
-	header {
+/*	header {
 		max-width: 1440px;
 		transform: translateX(38.9%);
-	}
+	}*/
 
 	header ul li a {
 		display: inline-block;
@@ -937,7 +959,7 @@ ul #marker {
 	    /*width: 60%;*/
 	}
 	.title-about {
-	    color: #fff;
+	    color: #68E1FD;
 	    font-weight: 500;
 	    font-size: 4em;
 	}
@@ -973,11 +995,17 @@ ul #marker {
 	}
 	/** Fin Nosotros **/
 
+	/** Eligenos **/
+	.photo-eligenos {
+	    width: 650px;
+	    height: 650px;
+	}
+
 	/** PRODUCTOS **/
 	.content-info-servicios h2 {
 	    font-size: 4em;
 	    font-weight: 500;
-	    color: #fff;
+	    color: #68E1FD;
 	}
 	.content-info-servicios p {
 	    font-weight: 300;
@@ -1025,7 +1053,7 @@ ul #marker {
 	.contact .content-form h2 {
 	    font-size: 4em;
 	    font-weight: 500;
-	    color: #fff;
+	    color: #68E1FD;
 	}
 	.contact .content-form p {
 	    font-weight: 300;
@@ -1094,7 +1122,7 @@ ul #marker {
 	.maps-title {
 		font-size: 4em;
 	    font-weight: 500;
-	    color: #fff;
+	    color: #68E1FD;
 	}
 	.maps-parrafo {
 		font-weight: 300;
